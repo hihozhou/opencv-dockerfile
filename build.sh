@@ -24,7 +24,7 @@ cd /usr/local/src/opencv \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..\
 && make -j6 \
 && make install \
-&& cd ../../ \
+&& cd / \
 && sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf' \
 && ldconfig
 
