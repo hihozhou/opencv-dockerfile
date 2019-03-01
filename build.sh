@@ -21,6 +21,7 @@ cd /usr/local/src/opencv \
 -D BUILD_TESTS=OFF \
 -D WITH_QT=ON \
 -D WITH_OPENGL=ON \
+-D OPENCV_GENERATE_PKGCONFIG=ON \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..\
 && make -j6 \
 && make install \
