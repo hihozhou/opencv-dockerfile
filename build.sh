@@ -21,6 +21,8 @@ cd /usr/local/src/opencv \
 -D BUILD_TESTS=OFF \
 -D WITH_QT=ON \
 -D WITH_OPENGL=ON \
+-D BUILD_opencv_world=ON \
+-D OPENCV_PYTHON_SKIP_DETECTION=ON \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..\
 && make -j6 \
 && make install \
