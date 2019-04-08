@@ -23,6 +23,7 @@ cd /usr/local/src/opencv \
 -D WITH_OPENGL=ON \
 -D BUILD_opencv_world=ON \
 -D OPENCV_PYTHON_SKIP_DETECTION=ON \
+-D OPENCV_GENERATE_PKGCONFIG=ON \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..\
 && make -j6 \
 && make install \
